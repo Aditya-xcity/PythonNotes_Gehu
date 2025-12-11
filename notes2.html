@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>notes</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>notes2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -75,13 +75,9 @@ body::before {
     pointer-events: none;
 }
 
-
-
-
-
-
-
-
+h1 {
+    color: red;
+}
 
 
   </style>
@@ -7548,12 +7544,14 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Python-Data-Types">Python Data Types<a class="anchor-link" href="#Python-Data-Types">¶</a></h1><p><strong>Date</strong>: 06 August 2025<br/>
+<h1 id="Python-Notes">Python Notes<a class="anchor-link" href="#Python-Notes">¶</a></h1><p>Hey! Thanks for checking out my notes.<br/>
+This space contains my Python Elective notes, written and organized by me.</p>
+<p><strong>Date</strong>: 06 August 2025<br/>
 <strong>Author</strong>: Aditya Bhardwaj<br/>
 <strong>Course</strong>: B.Tech CSE - D2<br/>
 <strong>Roll No</strong>: 08</p>
 <hr/>
-<h2 id="Built-in-Data-Types-in-Python">Built-in Data Types in Python<a class="anchor-link" href="#Built-in-Data-Types-in-Python">¶</a></h2><p>Python has several built-in data types that are categorized into groups.</p>
+<h1 id="Unit-1---Python-Basics-and-functions-and-Modules">Unit 1 - Python Basics and functions and Modules<a class="anchor-link" href="#Unit-1---Python-Basics-and-functions-and-Modules">¶</a></h1><h2 id="Python-Data-Types">Python Data Types<a class="anchor-link" href="#Python-Data-Types">¶</a></h2><h2 id="Built-in-Data-Types-in-Python">Built-in Data Types in Python<a class="anchor-link" href="#Built-in-Data-Types-in-Python">¶</a></h2><p>Python has several built-in data types that are categorized into groups.</p>
 <hr/>
 <h2 id="Numeric-Types">Numeric Types<a class="anchor-link" href="#Numeric-Types">¶</a></h2><ul>
 <li><p><code>int</code> → Integer numbers<br/>
@@ -7613,7 +7611,7 @@ Example: <code>student = {"name": "Aditya", "roll": 8}</code></li>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=290fc1ac">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a5771f06">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7761,7 +7759,7 @@ abc &lt;class 'str'&gt;
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="z-=-2-+-j2">z = 2 + j2<a class="anchor-link" href="#z-=-2-+-j2">¶</a></h1><p>here j2 is not a complex number, it is a variable name.</p>
+<h2 id="z-=-2-+-j2">z = 2 + j2<a class="anchor-link" href="#z-=-2-+-j2">¶</a></h2><p>here j2 is not a complex number, it is a variable name.</p>
 </div>
 </div>
 </div>
@@ -7772,7 +7770,61 @@ abc &lt;class 'str'&gt;
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="SDST">SDST<a class="anchor-link" href="#SDST">¶</a></h1>
+<h1 id="Unit-2-Data-handling">Unit-2 Data handling<a class="anchor-link" href="#Unit-2-Data-handling">¶</a></h1><h2 id="1.-Creating-Lists">1. Creating Lists<a class="anchor-link" href="#1.-Creating-Lists">¶</a></h2><p>Lists in Python can store multiple items in a single variable.</p>
+<h3 id="Examples">Examples<a class="anchor-link" href="#Examples">¶</a></h3><div class="highlight"><pre><span></span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Adi"</span><span class="p">,</span> <span class="s2">"Rohan"</span><span class="p">,</span> <span class="s2">"Mira"</span><span class="p">]</span>
+<span class="n">mixed</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="s2">"Hello"</span><span class="p">,</span> <span class="mf">3.14</span><span class="p">,</span> <span class="kc">True</span><span class="p">]</span>
+</pre></div>
+<hr/>
+<h2 id="2.-Indexing">2. Indexing<a class="anchor-link" href="#2.-Indexing">¶</a></h2><p>Indexing allows accessing specific elements from a list.</p>
+<h3 id="Positive-Indexing">Positive Indexing<a class="anchor-link" href="#Positive-Indexing">¶</a></h3><div class="highlight"><pre><span></span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>   <span class="c1"># First element</span>
+<span class="n">numbers</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>   <span class="c1"># Third element</span>
+</pre></div>
+<h3 id="Negative-Indexing">Negative Indexing<a class="anchor-link" href="#Negative-Indexing">¶</a></h3><div class="highlight"><pre><span></span><span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>   <span class="c1"># Last element</span>
+<span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>   <span class="c1"># Second last element</span>
+</pre></div>
+<hr/>
+<h2 id="3.-Slicing">3. Slicing<a class="anchor-link" href="#3.-Slicing">¶</a></h2><p>Slicing is used to extract a portion of the list.</p>
+<h3 id="Syntax">Syntax<a class="anchor-link" href="#Syntax">¶</a></h3><div class="highlight"><pre><span></span><span class="nb">list</span><span class="p">[</span><span class="n">start</span><span class="p">:</span><span class="n">end</span><span class="p">]</span>
+</pre></div>
+<ul>
+<li><code>start</code> is inclusive</li>
+<li><code>end</code> is exclusive</li>
+</ul>
+<h3 id="Examples">Examples<a class="anchor-link" href="#Examples">¶</a></h3><div class="highlight"><pre><span></span><span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>     <span class="c1"># Elements from index 1 to 3</span>
+<span class="n">numbers</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>      <span class="c1"># First three elements</span>
+<span class="n">numbers</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>      <span class="c1"># From index 2 to end</span>
+<span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:]</span>     <span class="c1"># Last three elements</span>
+<span class="n">numbers</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span>     <span class="c1"># Every second element</span>
+</pre></div>
+<hr/>
+<h2 id="4.-List-Methods">4. List Methods<a class="anchor-link" href="#4.-List-Methods">¶</a></h2><p>Common list operations used in data handling.</p>
+<h3 id="append()">append()<a class="anchor-link" href="#append()">¶</a></h3><p>Adds an element at the end.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+</pre></div>
+<h3 id="insert()">insert()<a class="anchor-link" href="#insert()">¶</a></h3><p>Adds an element at a specific index.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
+<h3 id="remove()">remove()<a class="anchor-link" href="#remove()">¶</a></h3><p>Removes first matching element.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+<h3 id="pop()">pop()<a class="anchor-link" href="#pop()">¶</a></h3><p>Removes element by index.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+<h3 id="sort()">sort()<a class="anchor-link" href="#sort()">¶</a></h3><p>Sorts list in ascending order.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+</pre></div>
+<h3 id="reverse()">reverse()<a class="anchor-link" href="#reverse()">¶</a></h3><p>Reverses the list.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+</pre></div>
+<h3 id="count()">count()<a class="anchor-link" href="#count()">¶</a></h3><p>Counts occurrences of a value.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+<h3 id="index()">index()<a class="anchor-link" href="#index()">¶</a></h3><p>Finds index of first matching element.</p>
+<div class="highlight"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="SDST">SDST<a class="anchor-link" href="#SDST">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7816,11 +7868,66 @@ abc &lt;class 'str'&gt;
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Lists are mutable category</p>
-<h1 id="Tuple">Tuple<a class="anchor-link" href="#Tuple">¶</a></h1><p>Round brackets ' () ' is used to create tuple
-Tuple can store duplicate elements
-Order of preservations remains same
-Once a tuple is created it can never be changed</p>
+<h2 id="Tuple">Tuple<a class="anchor-link" href="#Tuple">¶</a></h2><h2 id="What-is-a-Tuple?">What is a Tuple?<a class="anchor-link" href="#What-is-a-Tuple?">¶</a></h2><p>A tuple is an ordered, immutable collection of elements in Python.
+It is used when you want to store multiple items that should <strong>not</strong> be changed.</p>
+<hr/>
+<h2 id="Creating-Tuples">Creating Tuples<a class="anchor-link" href="#Creating-Tuples">¶</a></h2><p>Round brackets <code>()</code> are used to create a tuple.</p>
+<h3 id="Examples">Examples<a class="anchor-link" href="#Examples">¶</a></h3><div class="highlight"><pre><span></span><span class="n">t1</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="p">(</span><span class="s2">"apple"</span><span class="p">,</span> <span class="s2">"banana"</span><span class="p">,</span> <span class="s2">"cherry"</span><span class="p">)</span>
+<span class="n">t3</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+</pre></div>
+<h3 id="Single-Element-Tuple">Single-Element Tuple<a class="anchor-link" href="#Single-Element-Tuple">¶</a></h3><p>You must use a comma.</p>
+<div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,)</span>      <span class="c1"># valid tuple</span>
+<span class="n">x</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">)</span>       <span class="c1"># not a tuple, just an integer</span>
+</pre></div>
+<hr/>
+<h2 id="Key-Features-of-Tuples">Key Features of Tuples<a class="anchor-link" href="#Key-Features-of-Tuples">¶</a></h2><ul>
+<li>Tuples can store duplicate elements.</li>
+<li>Order is preserved.</li>
+<li>Tuples are immutable (cannot be changed after creation).</li>
+<li>Faster than lists (performance advantage).</li>
+</ul>
+<hr/>
+<h2 id="Accessing-Tuple-Elements-(Indexing)">Accessing Tuple Elements (Indexing)<a class="anchor-link" href="#Accessing-Tuple-Elements-(Indexing)">¶</a></h2><div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>   <span class="c1"># 10</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>  <span class="c1"># 40</span>
+</pre></div>
+<hr/>
+<h2 id="Slicing-Tuples">Slicing Tuples<a class="anchor-link" href="#Slicing-Tuples">¶</a></h2><div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>    <span class="c1"># (2, 3, 4)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[:</span><span class="mi">3</span><span class="p">])</span>     <span class="c1"># (1, 2, 3)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:])</span>    <span class="c1"># (3, 4, 5)</span>
+</pre></div>
+<hr/>
+<h2 id="Tuple-Methods">Tuple Methods<a class="anchor-link" href="#Tuple-Methods">¶</a></h2><p>Tuples have very few methods because they are immutable.</p>
+<h3 id="count()">count()<a class="anchor-link" href="#count()">¶</a></h3><p>Counts occurrences of a value.</p>
+<div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+<h3 id="index()">index()<a class="anchor-link" href="#index()">¶</a></h3><p>Returns the index of the first occurrence.</p>
+<div class="highlight"><pre><span></span><span class="n">t</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="When-to-Use-Tuples?">When to Use Tuples?<a class="anchor-link" href="#When-to-Use-Tuples?">¶</a></h2><ul>
+<li><p>When data must remain constant (fixed values).</p>
+</li>
+<li><p>When you want faster performance than a list.</p>
+</li>
+<li><p>When storing data that should not change, such as:</p>
+<ul>
+<li>Coordinates (x, y)</li>
+<li>Dates (year, month, day)</li>
+<li>Database records (id, name, age)</li>
+</ul>
+</li>
+<li><p>When using a dictionary key (keys must be immutable).</p>
+</li>
+</ul>
+<hr/>
+<h2 id="Tuple-Packing-and-Unpacking">Tuple Packing and Unpacking<a class="anchor-link" href="#Tuple-Packing-and-Unpacking">¶</a></h2><h3 id="Packing">Packing<a class="anchor-link" href="#Packing">¶</a></h3><div class="highlight"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span>
+</pre></div>
+<h3 id="Unpacking">Unpacking<a class="anchor-link" href="#Unpacking">¶</a></h3><div class="highlight"><pre><span></span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span> <span class="o">=</span> <span class="n">t</span>
+</pre></div>
+<hr/>
 </div>
 </div>
 </div>
@@ -7932,16 +8039,6 @@ acd
 <pre>{1, 2, 3, 4, 5, 6, 7, 8, 20} &lt;class 'set'&gt;
 </pre>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6ea690ef">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
@@ -8109,7 +8206,7 @@ hello
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="functions">functions<a class="anchor-link" href="#functions">¶</a></h1>
+<h2 id="functions">functions<a class="anchor-link" href="#functions">¶</a></h2><p>A function in Python is a block of code that runs only when you call it, and usually takes input, processes something, and returns output.</p>
 </div>
 </div>
 </div>
@@ -8224,21 +8321,23 @@ hello world
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6051075c">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6051075c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Postional Argument</span>
-
-<span class="c1"># def Fun(*args)</span>
-<span class="c1">#     print(type(args))</span>
-    
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Positional-Arguments-in-Python">Positional Arguments in Python<a class="anchor-link" href="#Positional-Arguments-in-Python">¶</a></h2><h2 id="What-Are-Positional-Arguments?">What Are Positional Arguments?<a class="anchor-link" href="#What-Are-Positional-Arguments?">¶</a></h2><p>Positional arguments are the values passed to a function <strong>in order</strong>, and Python assigns them based on their position.</p>
+<h2 id="Using-*args">Using *args<a class="anchor-link" href="#Using-*args">¶</a></h2><p><code>*args</code> lets a function accept any number of positional arguments. All the passed values are collected into a <strong>tuple</strong>.</p>
+<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">Fun</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">args</span><span class="p">))</span>
 </pre></div>
-</div>
+<h3 id="Key-Points">Key Points<a class="anchor-link" href="#Key-Points">¶</a></h3><ul>
+<li><code>*args</code> collects multiple positional arguments.</li>
+<li>They get stored in a <strong>tuple</strong>.</li>
+<li>Useful when the number of inputs is unknown.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8351,7 +8450,7 @@ write a module that contains a functions to check if a number is prime</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Execption-Handling">Execption Handling<a class="anchor-link" href="#Execption-Handling">¶</a></h1><p>Exceptions are errors detected during program execution
+<h2 id="Execption-Handling">Execption Handling<a class="anchor-link" href="#Execption-Handling">¶</a></h2><p>Exceptions are errors detected during program execution
 exception handling prevents programs from crashing when errors occurs</p>
 <p>SYntax
 try:
@@ -8456,7 +8555,7 @@ Coustom Exception</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Condtional-statements">Condtional statements<a class="anchor-link" href="#Condtional-statements">¶</a></h1>
+<h2 id="Condtional-statements">Condtional statements<a class="anchor-link" href="#Condtional-statements">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8500,7 +8599,7 @@ Coustom Exception</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Loops">Loops<a class="anchor-link" href="#Loops">¶</a></h1>
+<h2 id="Loops">Loops<a class="anchor-link" href="#Loops">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8552,7 +8651,7 @@ a = a-1</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="LIST-,TUPLE,DICTIONARY,SET">LIST ,TUPLE,DICTIONARY,SET<a class="anchor-link" href="#LIST-,TUPLE,DICTIONARY,SET">¶</a></h1>
+<h2 id="LIST-,TUPLE,DICTIONARY,SET">LIST ,TUPLE,DICTIONARY,SET<a class="anchor-link" href="#LIST-,TUPLE,DICTIONARY,SET">¶</a></h2>
 </div>
 </div>
 </div>
@@ -9000,7 +9099,33 @@ length of the list is 8
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="SET">SET<a class="anchor-link" href="#SET">¶</a></h1>
+<h2 id="SET">SET<a class="anchor-link" href="#SET">¶</a></h2><h2 id="What-Is-a-Set?">What Is a Set?<a class="anchor-link" href="#What-Is-a-Set?">¶</a></h2><p>A <strong>set</strong> is an unordered collection of unique elements. It automatically removes duplicate values and does not maintain any specific order.</p>
+<h2 id="Key-Features">Key Features<a class="anchor-link" href="#Key-Features">¶</a></h2><ul>
+<li>Uses curly braces <code>{ }</code>.</li>
+<li>No duplicate elements are allowed.</li>
+<li>Unordered → no indexing or slicing.</li>
+<li>Mutable → elements can be added or removed.</li>
+<li>Fast for membership testing (using <code>in</code>).</li>
+</ul>
+<h2 id="Creating-a-Set">Creating a Set<a class="anchor-link" href="#Creating-a-Set">¶</a></h2><h3 id="Using-curly-braces">Using curly braces<a class="anchor-link" href="#Using-curly-braces">¶</a></h3><div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+</pre></div>
+<h3 id="Using-the-set-constructor">Using the set constructor<a class="anchor-link" href="#Using-the-set-constructor">¶</a></h3><div class="highlight"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="nb">set</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+</pre></div>
+<h2 id="Example-Demonstration">Example Demonstration<a class="anchor-link" href="#Example-Demonstration">¶</a></h2><div class="highlight"><pre><span></span><span class="n">my_set</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_set</span><span class="p">)</span>
+</pre></div>
+<p>Output:</p>
+<pre><code>{1, 2, 3}
+</code></pre>
+<h2 id="Common-Operations">Common Operations<a class="anchor-link" href="#Common-Operations">¶</a></h2><div class="highlight"><pre><span></span><span class="n">s</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">s</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="ow">in</span> <span class="n">s</span><span class="p">)</span>
+</pre></div>
+<h2 id="When-to-Use-Sets">When to Use Sets<a class="anchor-link" href="#When-to-Use-Sets">¶</a></h2><ul>
+<li>When you want only <strong>unique values</strong>.</li>
+<li>When fast lookup is required.</li>
+<li>To remove duplicates from a list.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9529,7 +9654,43 @@ a 1
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Dic">Dic<a class="anchor-link" href="#Dic">¶</a></h1>
+<h2 id="Dictionary-in-Python">Dictionary in Python<a class="anchor-link" href="#Dictionary-in-Python">¶</a></h2><h2 id="What-Is-a-Dictionary?">What Is a Dictionary?<a class="anchor-link" href="#What-Is-a-Dictionary?">¶</a></h2><p>A <strong>dictionary</strong> in Python is a collection of data stored in <strong>key–value pairs</strong>. Each key is unique and is used to access its corresponding value.</p>
+<h2 id="Key-Features">Key Features<a class="anchor-link" href="#Key-Features">¶</a></h2><ul>
+<li>Uses curly braces <code>{ }</code>.</li>
+<li>Stores data as <strong>key: value</strong> pairs.</li>
+<li>Keys must be <strong>unique</strong>.</li>
+<li>Ordered (Python 3.7+).</li>
+<li>Mutable → can add, modify, or remove items.</li>
+<li>Fast lookup using keys.</li>
+</ul>
+<h2 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h2><div class="highlight"><pre><span></span><span class="n">student</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"name"</span><span class="p">:</span> <span class="s2">"Aditya"</span><span class="p">,</span>
+    <span class="s2">"age"</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+    <span class="s2">"course"</span><span class="p">:</span> <span class="s2">"CSE"</span>
+<span class="p">}</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">student</span><span class="p">[</span><span class="s2">"name"</span><span class="p">])</span>
+</pre></div>
+<p>Output:</p>
+<pre><code>Aditya
+</code></pre>
+<h2 id="Adding,-Updating-&amp;-Deleting">Adding, Updating &amp; Deleting<a class="anchor-link" href="#Adding,-Updating-&amp;-Deleting">¶</a></h2><div class="highlight"><pre><span></span><span class="n">student</span><span class="p">[</span><span class="s2">"age"</span><span class="p">]</span> <span class="o">=</span> <span class="mi">21</span>        <span class="c1"># update</span>
+<span class="n">student</span><span class="p">[</span><span class="s2">"city"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"GEU"</span>    <span class="c1"># add</span>
+
+<span class="k">del</span> <span class="n">student</span><span class="p">[</span><span class="s2">"course"</span><span class="p">]</span>       <span class="c1"># delete</span>
+</pre></div>
+<h2 id="Useful-Dictionary-Methods">Useful Dictionary Methods<a class="anchor-link" href="#Useful-Dictionary-Methods">¶</a></h2><div class="highlight"><pre><span></span><span class="n">student</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<span class="n">student</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+<span class="n">student</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+<span class="n">student</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">"name"</span><span class="p">)</span>
+</pre></div>
+<h2 id="When-to-Use-Dictionaries?">When to Use Dictionaries?<a class="anchor-link" href="#When-to-Use-Dictionaries?">¶</a></h2><ul>
+<li>For structured data with labels.</li>
+<li>Student records</li>
+<li>Product details</li>
+<li>API/JSON data</li>
+<li>Quick lookup tables</li>
+</ul>
 </div>
 </div>
 </div>
@@ -9612,27 +9773,39 @@ branch CSE
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Binary files are files that store data in bnary format (0s and 1s) instead of huan readable text (like.txt) Example images(.jpg).png videos(.mp4)</p>
-<p>In python you work with them by opening file in binary mode using "rb","wb",</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=3f571641">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># with open("data.txt",'r') as file0bj1:</span>
-<span class="c1">#     data = file0bj1.read()</span>
-<span class="c1">#     with open("data1.txt",'w') as fileobj2:</span>
-<span class="c1">#         fileobj2.write(data)</span>
+<h2 id="Binary-Files-in-Python">Binary Files in Python<a class="anchor-link" href="#Binary-Files-in-Python">¶</a></h2><h2 id="What-Are-Binary-Files?">What Are Binary Files?<a class="anchor-link" href="#What-Are-Binary-Files?">¶</a></h2><p>Binary files store data in <strong>binary format (0s and 1s)</strong> instead of human-readable text. These files are understood by machines, not humans.</p>
+<h3 id="Examples-of-Binary-Files">Examples of Binary Files<a class="anchor-link" href="#Examples-of-Binary-Files">¶</a></h3><ul>
+<li>Images: <code>.jpg</code>, <code>.png</code></li>
+<li>Videos: <code>.mp4</code></li>
+<li>Audio: <code>.mp3</code></li>
+<li>Executables: <code>.exe</code></li>
+</ul>
+<h2 id="Why-Binary-Files?">Why Binary Files?<a class="anchor-link" href="#Why-Binary-Files?">¶</a></h2><ul>
+<li>They preserve the <strong>exact data</strong> structure.</li>
+<li>Useful for storing multimedia and non-text data.</li>
+</ul>
+<h2 id="Opening-Binary-Files-in-Python">Opening Binary Files in Python<a class="anchor-link" href="#Opening-Binary-Files-in-Python">¶</a></h2><p>Use these modes:</p>
+<ul>
+<li><code>rb</code> → read binary</li>
+<li><code>wb</code> → write binary</li>
+<li><code>ab</code> → append binary</li>
+</ul>
+<h2 id="Example:-Copying-Data-Between-Files">Example: Copying Data Between Files<a class="anchor-link" href="#Example:-Copying-Data-Between-Files">¶</a></h2><div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data.txt"</span><span class="p">,</span> <span class="s1">'r'</span><span class="p">)</span> <span class="k">as</span> <span class="n">fileobj1</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">fileobj1</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"data1.txt"</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">fileobj2</span><span class="p">:</span>
+        <span class="n">fileobj2</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
 
-<span class="c1"># print("Done!")</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Done!"</span><span class="p">)</span>
 </pre></div>
-</div>
+<h2 id="Note">Note<a class="anchor-link" href="#Note">¶</a></h2><ul>
+<li>For binary files, replace <code>'r'</code> and <code>'w'</code> with <code>'rb'</code> and <code>'wb'</code>.</li>
+<li>Example for actual binary copying:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"image.jpg"</span><span class="p">,</span> <span class="s1">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"copy.jpg"</span><span class="p">,</span> <span class="s1">'wb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">dest</span><span class="p">:</span>
+        <span class="n">dest</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
 </div>
 </div>
 </div>
@@ -9643,7 +9816,7 @@ branch CSE
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="OOP-with-Python-(unit-03)">OOP with Python (unit-03)<a class="anchor-link" href="#OOP-with-Python-(unit-03)">¶</a></h1>
+<h1 id="Unit-3-Oops-with-python">Unit-3 Oops with python<a class="anchor-link" href="#Unit-3-Oops-with-python">¶</a></h1>
 </div>
 </div>
 </div>
@@ -9872,7 +10045,7 @@ because relevant methods and attributes are combined in a group called class</p>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>With the help of object we can access the visible attributes and methods of a class
 WWhen we initialise an object of a class then only the appropriate memory will be provided for that object of that class</p>
-<h1 id="constructos-and-destructors">constructos and destructors<a class="anchor-link" href="#constructos-and-destructors">¶</a></h1>
+<h2 id="constructos-and-destructors">constructos and destructors<a class="anchor-link" href="#constructos-and-destructors">¶</a></h2>
 </div>
 </div>
 </div>
@@ -9936,7 +10109,7 @@ def is used to define a constructor</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>&lt;-Constructor is used to initialize all the attributes of a class-&gt;</p>
+<p>Constructor is used to initialize all the attributes of a class</p>
 </div>
 </div>
 </div>
@@ -10003,20 +10176,6 @@ def is used to define a constructor</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>A class is a collection of attributes and methods that define the properties and behaviors of an object.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ab312615">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
 </div>
 </div>
 </div>
@@ -10101,7 +10260,7 @@ def is used to define a constructor</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Inheritance-(OOP-Concept)">Inheritance (OOP Concept)<a class="anchor-link" href="#Inheritance-(OOP-Concept)">¶</a></h1><p>Definition:
+<h2 id="Inheritance-(OOP-Concept)">Inheritance (OOP Concept)<a class="anchor-link" href="#Inheritance-(OOP-Concept)">¶</a></h2><p>Definition:
 Inheritance is one of the key features of Object-Oriented Programming (OOP).</p>
 <p>It allows a child class (also called a subclass or derived class) to reuse the code and properties of an existing parent class (also called a superclass or base class).</p>
 <p>In simple words:</p>
@@ -10213,8 +10372,7 @@ Hello from Parent!
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>🟢 1. Single Level Inheritance</p>
-<p>In this type, a child class inherits from only one parent class.
+<h2 id="1.-Single-Level-Inheritance">1. Single Level Inheritance<a class="anchor-link" href="#1.-Single-Level-Inheritance">¶</a></h2><p>In this type, a child class inherits from only one parent class.
 It’s the simplest form of inheritance.</p>
 <p>class Parent:
 def showParent(self):
@@ -10222,14 +10380,13 @@ print("This is the Parent class.")</p>
 <p>class Child(Parent):
 def showChild(self):
 print("This is the Child class.")</p>
-<h1 id="Object-of-Child">Object of Child<a class="anchor-link" href="#Object-of-Child">¶</a></h1><p>obj = Child()
+<h2 id="Object-of-Child">Object of Child<a class="anchor-link" href="#Object-of-Child">¶</a></h2><p>obj = Child()
 obj.showParent()
 obj.showChild()</p>
 <p>Output:</p>
 <p>This is the Parent class.
 This is the Child class.</p>
-<p>🟣 2. Multiple Inheritance</p>
-<p>In this type, a child class inherits from more than one parent class.
+<h2 id="2.-Multiple-Inheritance">2. Multiple Inheritance<a class="anchor-link" href="#2.-Multiple-Inheritance">¶</a></h2><p>In this type, a child class inherits from more than one parent class.
 This means it can access the properties and methods of all its parent classes.</p>
 <p>class Parent1:
 def display1(self):
@@ -10240,7 +10397,7 @@ print("This is Parent2.")</p>
 <p>class Child(Parent1, Parent2):
 def showChild(self):
 print("This is the Child class.")</p>
-<h1 id="Object-of-Child">Object of Child<a class="anchor-link" href="#Object-of-Child">¶</a></h1><p>obj = Child()
+<h3 id="Object-of-Child">Object of Child<a class="anchor-link" href="#Object-of-Child">¶</a></h3><p>obj = Child()
 obj.display1()
 obj.display2()
 obj.showChild()</p>
@@ -10248,8 +10405,7 @@ obj.showChild()</p>
 <p>This is Parent1.
 This is Parent2.
 This is the Child class.</p>
-<p>🔵 3. Hierarchical Inheritance</p>
-<p>In this type, multiple child classes inherit from the same parent class.
+<h2 id="3.-Hierarchical-Inheritance">3. Hierarchical Inheritance<a class="anchor-link" href="#3.-Hierarchical-Inheritance">¶</a></h2><p>In this type, multiple child classes inherit from the same parent class.
 So, all children share the properties of a single parent.</p>
 <p>class Parent:
 def showParent(self):
@@ -10260,7 +10416,7 @@ print("This is Child1 class.")</p>
 <p>class Child2(Parent):
 def showChild2(self):
 print("This is Child2 class.")</p>
-<h1 id="Objects-of-Child1-and-Child2">Objects of Child1 and Child2<a class="anchor-link" href="#Objects-of-Child1-and-Child2">¶</a></h1><p>obj1 = Child1()
+<h2 id="Objects-of-Child1-and-Child2">Objects of Child1 and Child2<a class="anchor-link" href="#Objects-of-Child1-and-Child2">¶</a></h2><p>obj1 = Child1()
 obj2 = Child2()</p>
 <p>obj1.showParent()
 obj1.showChild1()</p>
@@ -10325,7 +10481,7 @@ It’s like combining multiple inheritance styles to fit your logic</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Polymorphism-(OOP-Concept)">Polymorphism (OOP Concept)<a class="anchor-link" href="#Polymorphism-(OOP-Concept)">¶</a></h1><p>Poly means many and morph means forms we can simply say that many forms</p>
+<h2 id="Polymorphism-(OOP-Concept)">Polymorphism (OOP Concept)<a class="anchor-link" href="#Polymorphism-(OOP-Concept)">¶</a></h2><p>Poly means many and morph means forms we can simply say that many forms</p>
 <p>Take right turn
 fight for your rights</p>
 <p>Polymorphism helps us write cleaner, more readable, and flexible code by allowing the same function to behave in many different forms depending on the object that calls it.</p>
@@ -10435,10 +10591,86 @@ Meow Meow
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="unit-4">unit 4<a class="anchor-link" href="#unit-4">¶</a></h1><p>numpy
-pandas
-matplotlib
-seaborn</p>
+<h1 id="Unit-4-libarries-For-AI/ML">Unit 4-libarries For AI/ML<a class="anchor-link" href="#Unit-4-libarries-For-AI/ML">¶</a></h1><h2 id="1.-Introduction-to-NumPy">1. Introduction to NumPy<a class="anchor-link" href="#1.-Introduction-to-NumPy">¶</a></h2><p>NumPy is a powerful Python library used for numerical computations, especially with large datasets. It provides fast operations using multi-dimensional arrays.</p>
+<h3 id="Why-NumPy?">Why NumPy?<a class="anchor-link" href="#Why-NumPy?">¶</a></h3><ul>
+<li>Faster than Python lists</li>
+<li>Supports vectorized operations</li>
+<li>Useful for data science, ML, statistics</li>
+</ul>
+<hr/>
+<h2 id="2.-NumPy-Arrays">2. NumPy Arrays<a class="anchor-link" href="#2.-NumPy-Arrays">¶</a></h2><p>A NumPy array is a grid of values of the same type.</p>
+<h3 id="Creating-Arrays">Creating Arrays<a class="anchor-link" href="#Creating-Arrays">¶</a></h3><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+<span class="n">arr1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>                <span class="c1"># 1D</span>
+<span class="n">arr2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>         <span class="c1"># 2D</span>
+<span class="n">arr3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>                   <span class="c1"># array of zeros</span>
+<span class="n">arr4</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>                    <span class="c1"># array of ones</span>
+<span class="n">arr5</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>                <span class="c1"># range array</span>
+<span class="n">arr6</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>               <span class="c1"># equal spacing</span>
+</pre></div>
+<hr/>
+<h2 id="3.-Array-Operations">3. Array Operations<a class="anchor-link" href="#3.-Array-Operations">¶</a></h2><p>NumPy supports element-wise operations.</p>
+<h3 id="Arithmetic">Arithmetic<a class="anchor-link" href="#Arithmetic">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+<span class="n">arr</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="n">arr</span> <span class="o">*</span> <span class="mi">3</span>
+<span class="n">arr</span> <span class="o">**</span> <span class="mi">2</span>
+<span class="n">arr</span> <span class="o">/</span> <span class="mi">2</span>
+</pre></div>
+<h3 id="Aggregate-Operations">Aggregate Operations<a class="anchor-link" href="#Aggregate-Operations">¶</a></h3><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="4.-Indexing-&amp;-Slicing">4. Indexing &amp; Slicing<a class="anchor-link" href="#4.-Indexing-&amp;-Slicing">¶</a></h2><p>NumPy indexing works similar to lists but is more powerful.</p>
+<h3 id="1D-Indexing">1D Indexing<a class="anchor-link" href="#1D-Indexing">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">])</span>
+<span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">arr</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+<h3 id="Slicing">Slicing<a class="anchor-link" href="#Slicing">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>    <span class="c1"># 20, 30</span>
+<span class="n">arr</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>     <span class="c1"># 10, 20</span>
+<span class="n">arr</span><span class="p">[::</span><span class="mi">2</span><span class="p">]</span>    <span class="c1"># 10, 30</span>
+</pre></div>
+<h3 id="2D-Indexing">2D Indexing<a class="anchor-link" href="#2D-Indexing">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
+<span class="n">arr2</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>   <span class="c1"># element</span>
+<span class="n">arr2</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>   <span class="c1"># column</span>
+<span class="n">arr2</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="p">:]</span>   <span class="c1"># row</span>
+</pre></div>
+<hr/>
+<h2 id="5.-Reshaping-Arrays">5. Reshaping Arrays<a class="anchor-link" href="#5.-Reshaping-Arrays">¶</a></h2><p>Reshaping changes array shape without altering data.</p>
+<h3 id="Reshape">Reshape<a class="anchor-link" href="#Reshape">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">])</span>
+<span class="n">arr</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</pre></div>
+<h3 id="Flatten">Flatten<a class="anchor-link" href="#Flatten">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+</pre></div>
+<h3 id="Ravel-(returns-view)">Ravel (returns view)<a class="anchor-link" href="#Ravel-(returns-view)">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+</pre></div>
+<h3 id="Resize-(modifies-original)">Resize (modifies original)<a class="anchor-link" href="#Resize-(modifies-original)">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span><span class="o">.</span><span class="n">resize</span><span class="p">((</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+</pre></div>
+<hr/>
+<h2 id="6.-Broadcasting">6. Broadcasting<a class="anchor-link" href="#6.-Broadcasting">¶</a></h2><p>NumPy allows operations between arrays of different shapes.</p>
+<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><div class="highlight"><pre><span></span><span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">arr</span> <span class="o">+</span> <span class="mi">5</span><span class="p">)</span>
+</pre></div>
+<h3 id="Broadcasting-Matrix-Example">Broadcasting Matrix Example<a class="anchor-link" href="#Broadcasting-Matrix-Example">¶</a></h3><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]])</span>
+<span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">A</span> <span class="o">+</span> <span class="n">B</span>
+</pre></div>
+<hr/>
+<h2 id="7.-Useful-NumPy-Functions">7. Useful NumPy Functions<a class="anchor-link" href="#7.-Useful-NumPy-Functions">¶</a></h2><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">np</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">()</span>
+<span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">()</span>
+<span class="n">np</span><span class="o">.</span><span class="n">hstack</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="8.-Key-Takeaways">8. Key Takeaways<a class="anchor-link" href="#8.-Key-Takeaways">¶</a></h2><ul>
+<li>NumPy arrays are faster and more efficient.</li>
+<li>Supports powerful mathematical operations.</li>
+<li>Reshaping makes dataset manipulation easier.</li>
+<li>Broadcasting is a next-level feat</li>
+</ul>
 </div>
 </div>
 </div>
@@ -10579,20 +10811,6 @@ Sliced [1:4]: [20 40 50]
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=14d6f35d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=86744aad">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -10600,104 +10818,481 @@ Sliced [1:4]: [20 40 50]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Pandas Notes
-Introduction</p>
-<p>Pandas is one of the most powerful and popular Python libraries used for:</p>
-<p>Data cleaning</p>
-<p>Data manipulation</p>
-<p>Data analysis</p>
-<p>It is built on top of NumPy and provides flexible data structures that make working with structured data fast and easy.</p>
-<h1 id="Data-Structures-in-Pandas">Data Structures in Pandas<a class="anchor-link" href="#Data-Structures-in-Pandas">¶</a></h1><p>Pandas provides two main data structures:</p>
-<ol>
-<li>Series</li>
-</ol>
-<p>A Series is a one-dimensional labeled array that can hold data of any type (integers, strings, floats, etc.).</p>
-<p>import pandas as pd</p>
-<h1 id="Example-of-a-Series">Example of a Series<a class="anchor-link" href="#Example-of-a-Series">¶</a></h1><p>data = [10, 20, 30, 40]
-s = pd.Series(data)
-print(s)</p>
-<p>Use Case:
-When you need to store 1D data — similar to a single column in an Excel sheet.</p>
-<ol start="2">
-<li>DataFrame</li>
-</ol>
-<p>A DataFrame is a two-dimensional labeled data structure with columns that can be of different types — think of it like a table in Excel or SQL.</p>
-<p>import pandas as pd</p>
-<h1 id="Example-of-a-DataFrame">Example of a DataFrame<a class="anchor-link" href="#Example-of-a-DataFrame">¶</a></h1><p>data = {
-'Name': ['Amit', 'Riya', 'Vikram'],
-'Age': [21, 22, 23],
-'City': ['Delhi', 'Mumbai', 'Pune']
-}
-df = pd.DataFrame(data)
-print(df)</p>
-<p>Use Case:
-When you have multiple columns of related data, like rows and columns in a CSV or Excel file.</p>
-<p>Working with CSV Files</p>
-<p>You can easily import and export data using Pandas:</p>
-<h1 id="Reading-a-CSV-file">Reading a CSV file<a class="anchor-link" href="#Reading-a-CSV-file">¶</a></h1><p>df = pd.read_csv('data.csv')</p>
-<h1 id="Display-the-first-few-rows">Display the first few rows<a class="anchor-link" href="#Display-the-first-few-rows">¶</a></h1><p>print(df.head())</p>
-<h1 id="Writing-to-a-CSV-file">Writing to a CSV file<a class="anchor-link" href="#Writing-to-a-CSV-file">¶</a></h1><p>df.to_csv('output.csv', index=False)</p>
-<p>Pandas vs Excel
-Feature	Pandas	Excel
-Speed	Fast (especially for large data)	Slower for big datasets
-Automation	Can be automated using Python scripts	Manual operations
-Reproducibility	Code-based (can be reused)	Manual steps hard to repeat
-Data Handling	Handles millions of rows easily	Limited by Excel’s memory
-Visualization	Can integrate with libraries like Matplotlib, Seaborn	Built-in but limited charts
-Use Case	For data science, analysis, automation	For manual reports and summaries</p>
-<h1 id="Quick-Summary">Quick Summary<a class="anchor-link" href="#Quick-Summary">¶</a></h1><p>Use Series for 1D data.</p>
-<p>Use DataFrame for 2D tabular data.</p>
-<p>Pandas &gt; Excel when working with large, automatable, or repetitive data tasks.</p>
-<p>Great for data analysis, cleaning, merging, visualization, and connecting with other Python libraries.</p>
+<h2 id="Pandas-Notes">Pandas Notes<a class="anchor-link" href="#Pandas-Notes">¶</a></h2><h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h2><p>Pandas is a powerful and widely used Python library for:</p>
+<ul>
+<li>Data cleaning</li>
+<li>Data manipulation</li>
+<li>Data analysis</li>
+</ul>
+<p>It is built on top of NumPy and provides flexible data structures that make working with structured data fast and efficient.</p>
+<hr/>
+<h2 id="Data-Structures-in-Pandas">Data Structures in Pandas<a class="anchor-link" href="#Data-Structures-in-Pandas">¶</a></h2><p>Pandas offers two primary data structures:</p>
+<h2 id="1.-Series">1. Series<a class="anchor-link" href="#1.-Series">¶</a></h2><p>A <strong>Series</strong> is a one-dimensional labeled array that can store data of any type (integers, strings, floats, etc.).</p>
+<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">40</span><span class="p">]</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</pre></div>
+<p><strong>Use Case:</strong>
+Use a Series when working with 1D data, similar to a single column in an Excel sheet.</p>
+<hr/>
+<h2 id="2.-DataFrame">2. DataFrame<a class="anchor-link" href="#2.-DataFrame">¶</a></h2><p>A <strong>DataFrame</strong> is a two-dimensional labeled data structure with columns that can hold different types of data. It resembles a table in Excel or a SQL database.</p>
+<h3 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h3><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'Name'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Amit'</span><span class="p">,</span> <span class="s1">'Riya'</span><span class="p">,</span> <span class="s1">'Vikram'</span><span class="p">],</span>
+    <span class="s1">'Age'</span><span class="p">:</span> <span class="p">[</span><span class="mi">21</span><span class="p">,</span> <span class="mi">22</span><span class="p">,</span> <span class="mi">23</span><span class="p">],</span>
+    <span class="s1">'City'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Delhi'</span><span class="p">,</span> <span class="s1">'Mumbai'</span><span class="p">,</span> <span class="s1">'Pune'</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</pre></div>
+<p><strong>Use Case:</strong>
+Use a DataFrame when handling multi-column structured data such as CSV or Excel files.</p>
+<hr/>
+<h2 id="Working-with-CSV-Files">Working with CSV Files<a class="anchor-link" href="#Working-with-CSV-Files">¶</a></h2><p>Pandas makes importing and exporting data simple.</p>
+<h3 id="Reading-a-CSV-File">Reading a CSV File<a class="anchor-link" href="#Reading-a-CSV-File">¶</a></h3><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data.csv'</span><span class="p">)</span>
+</pre></div>
+<h3 id="Display-the-First-Few-Rows">Display the First Few Rows<a class="anchor-link" href="#Display-the-First-Few-Rows">¶</a></h3><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
+</pre></div>
+<h3 id="Writing-to-a-CSV-File">Writing to a CSV File<a class="anchor-link" href="#Writing-to-a-CSV-File">¶</a></h3><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'output.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="Pandas-vs-Excel">Pandas vs Excel<a class="anchor-link" href="#Pandas-vs-Excel">¶</a></h2><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Pandas</th>
+<th>Excel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Speed</td>
+<td>Very fast, even with large data</td>
+<td>Slower with big datasets</td>
+</tr>
+<tr>
+<td>Automation</td>
+<td>Fully scriptable with Python</td>
+<td>Mostly manual operations</td>
+</tr>
+<tr>
+<td>Reproducibility</td>
+<td>Code-based, easy to repeat</td>
+<td>Manual steps harder to replicate</td>
+</tr>
+<tr>
+<td>Data Handling</td>
+<td>Handles millions of rows</td>
+<td>Limited by memory</td>
+</tr>
+<tr>
+<td>Visualization</td>
+<td>Works with Matplotlib, Seaborn</td>
+<td>Basic built-in charts</td>
+</tr>
+<tr>
+<td>Use Case</td>
+<td>Data science, automation, analysis</td>
+<td>Manual reporting, small data</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<h2 id="summary">summary<a class="anchor-link" href="#summary">¶</a></h2><ul>
+<li>Use <strong>Series</strong> for one-dimensional data.</li>
+<li>Use <strong>DataFrame</strong> for two-dimensional tabular data.</li>
+<li>Pandas outperforms Excel for large, repeatable, and automatable tasks.</li>
+<li>Great for data cleaning, merging, visualization, and integration with other</li>
+</ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=009f39bc">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=009f39bc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="sd">'''import pandas as pd</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># import pandas as pd</span>
 
 
-<span class="sd">series1 = pd.Series(values,index=indexes)</span>
-<span class="sd">df9 = pd.DataFrame(dict1)</span>
-<span class="sd">print(df9)</span>
+<span class="c1"># series1 = pd.Series(values,index=indexes)</span>
+<span class="c1"># df9 = pd.DataFrame(dict1)</span>
+<span class="c1"># print(df9)</span>
 
 
-<span class="sd">dict1= {</span>
-<span class="sd">    'id':[1,2,3],</span>
-<span class="sd">    'name':['Amit','SUmit','Nitin']</span>
-<span class="sd">    'age':[31,16,19]</span>
-<span class="sd">}</span>
-<span class="sd">'''</span>
+<span class="c1"># dict1= {</span>
+<span class="c1">#     'id':[1,2,3],</span>
+<span class="c1">#     'name':['Amit','SUmit','Nitin']</span>
+<span class="c1">#     'age':[31,16,19]</span>
+<span class="c1"># }</span>
 </pre></div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>"import pandas as pd\n\n\nseries1 = pd.Series(values,index=indexes)\ndf9 = pd.DataFrame(dict1)\nprint(df9)\n\n\ndict1= {\n    'id':[1,2,3],\n    'name':['Amit','SUmit','Nitin']\n    'age':[31,16,19]\n}\n"</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b0c1c39d">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=da25e6b8">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="matplotlib">matplotlib<a class="anchor-link" href="#matplotlib">¶</a></h2><p>Matplotlib is a powerful and widely-used Python library for creating static, animated, and interactive visualizations. It provides a flexible framework for generating a variety of plots and charts, making it an essential tool for data analysis and scientific computing.</p>
+<h2 id="Key-Features-of-Matplotlib">Key Features of Matplotlib<a class="anchor-link" href="#Key-Features-of-Matplotlib">¶</a></h2><ul>
+<li>Versatile Plotting: Supports line plots, scatter plots, bar charts, histograms, pie charts, and more.</li>
+<li>Customization: Extensive options for customizing plots, including colors, labels, legends, and styles</li>
+<li>Integration: Works seamlessly with NumPy, Pandas, and other scientific libraries.</li>
+<li>Interactive Plots: Allows for zooming, panning, and updating plots in real-time.</li>
+</ul>
+<h2 id="Example">Example<a class="anchor-link" href="#Example">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=533bd909">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># import matplotlib.pyplot as plt</span>
+
+<span class="c1"># x = [1, 2, 3, 4]</span>
+<span class="c1"># y = [2, 4, 6, 8]</span>
+
+<span class="c1"># plt.plot(x, y)</span>
+<span class="c1"># plt.title("Simple Line Graph")</span>
+<span class="c1"># plt.xlabel("X-axis")</span>
+<span class="c1"># plt.ylabel("Y-axis")</span>
+<span class="c1"># plt.show()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=edfce514">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Basic-Plotting">Basic Plotting<a class="anchor-link" href="#Basic-Plotting">¶</a></h2><h2 id="1.-Importing-Matplotlib">1. Importing Matplotlib<a class="anchor-link" href="#1.-Importing-Matplotlib">¶</a></h2><p>Always start with:</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+</pre></div>
+<p><code>pyplot</code> provides the plotting functions.</p>
+<hr/>
+<h2 id="2.-Basic-Line-Plot">2. Basic Line Plot<a class="anchor-link" href="#2.-Basic-Line-Plot">¶</a></h2><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<ul>
+<li><code>plot()</code> draws a line graph.</li>
+<li><code>show()</code> displays the graph.</li>
+<li><code>x</code> and <code>y</code> must be lists/arrays of equal length.</li>
+</ul>
+<hr/>
+<h2 id="3.-Adding-Title-&amp;-Labels">3. Adding Title &amp; Labels<a class="anchor-link" href="#3.-Adding-Title-&amp;-Labels">¶</a></h2><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"My Graph"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">"X-axis"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">"Y-axis"</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="4.-Bar-Chart">4. Bar Chart<a class="anchor-link" href="#4.-Bar-Chart">¶</a></h2><p>Used to compare categories.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">categories</span><span class="p">,</span> <span class="n">values</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="5.-Scatter-Plot">5. Scatter Plot<a class="anchor-link" href="#5.-Scatter-Plot">¶</a></h2><p>Used to show relationships or trends.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="6.-Histogram">6. Histogram<a class="anchor-link" href="#6.-Histogram">¶</a></h2><p>Used for frequency distribution.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<ul>
+<li><code>bins</code> controls the number of groups.</li>
+</ul>
+<hr/>
+<h2 id="7.-Pie-Chart">7. Pie Chart<a class="anchor-link" href="#7.-Pie-Chart">¶</a></h2><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span> <span class="n">autopct</span><span class="o">=</span><span class="s2">"</span><span class="si">%1.1f%%</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<ul>
+<li><code>autopct</code> displays percentage values.</li>
+</ul>
+<hr/>
+<h2 id="8.-Multiple-Plots-on-Same-Graph">8. Multiple Plots on Same Graph<a class="anchor-link" href="#8.-Multiple-Plots-on-Same-Graph">¶</a></h2><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="9.-Figure-Size">9. Figure Size<a class="anchor-link" href="#9.-Figure-Size">¶</a></h2><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+</pre></div>
+<p>Controls the width and height of the graph.</p>
+<hr/>
+<h2 id="10.-Grid-Lines">10. Grid Lines<a class="anchor-link" href="#10.-Grid-Lines">¶</a></h2><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h1 id="Figures-and-Axes-in-Matplotlib">Figures and Axes in Matplotlib<a class="anchor-link" href="#Figures-and-Axes-in-Matplotlib">¶</a></h1><h2 id="1.-What-is-a-Figure?">1. What is a Figure?<a class="anchor-link" href="#1.-What-is-a-Figure?">¶</a></h2><ul>
+<li>A <strong>Figure</strong> is the overall window or page where your plots appear.</li>
+<li>Think of it as the container that holds one or more <strong>Axes</strong>.</li>
+</ul>
+<p>Create a figure:</p>
+<div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+</pre></div>
+<p>Or create with size:</p>
+<div class="highlight"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span>
+</pre></div>
+<hr/>
+<h2 id="2.-What-is-an-Axes?">2. What is an Axes?<a class="anchor-link" href="#2.-What-is-an-Axes?">¶</a></h2><ul>
+<li><strong>Axes</strong> is the actual plot area where data gets drawn.</li>
+<li>Each Axes has its own x-axis, y-axis, labels, title, etc.</li>
+</ul>
+<p>Create a figure with one axes:</p>
+<div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+</pre></div>
+<p>Plot using the axes:</p>
+<div class="highlight"><pre><span></span><span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">"My Plot"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">"X-axis"</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">"Y-axis"</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="3.-Multiple-Axes-in-One-Figure">3. Multiple Axes in One Figure<a class="anchor-link" href="#3.-Multiple-Axes-in-One-Figure">¶</a></h2><p>You can create multiple plots inside the same window.</p>
+<div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y1</span><span class="p">)</span>
+<span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">"Plot 1"</span><span class="p">)</span>
+
+<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y2</span><span class="p">)</span>
+<span class="n">axs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s2">"Plot 2"</span><span class="p">)</span>
+</pre></div>
+<ul>
+<li><code>1, 2</code> means 1 row, 2 columns.</li>
+<li><code>axs</code> becomes a list (or array) of Axes.</li>
+</ul>
+<hr/>
+<h2 id="4.-Adding-Title-to-the-Whole-Figure">4. Adding Title to the Whole Figure<a class="anchor-link" href="#4.-Adding-Title-to-the-Whole-Figure">¶</a></h2><div class="highlight"><pre><span></span><span class="n">fig</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s2">"Overall Figure Title"</span><span class="p">)</span>
+</pre></div>
+<hr/>
+<h2 id="5.-Adjusting-Layout">5. Adjusting Layout<a class="anchor-link" href="#5.-Adjusting-Layout">¶</a></h2><p>Prevents overlapping of texts.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="6.-Difference-Between-Figure-and-Axes">6. Difference Between Figure and Axes<a class="anchor-link" href="#6.-Difference-Between-Figure-and-Axes">¶</a></h2><table>
+<thead>
+<tr>
+<th>Figure</th>
+<th>Axes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overall container window</td>
+<td>Individual plotting area</td>
+</tr>
+<tr>
+<td>Can contain multiple axes</td>
+<td>One graph per axes</td>
+</tr>
+<tr>
+<td>Controls global layout</td>
+<td>Controls actual plot elements</td>
+</tr>
+</tbody>
+</table>
+<hr/>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=0b23ddc3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Unit-5---Intro-to-Data-Science">Unit 5 - Intro to Data Science<a class="anchor-link" href="#Unit-5---Intro-to-Data-Science">¶</a></h1><h2 id="Data-Science-Notes">Data Science Notes<a class="anchor-link" href="#Data-Science-Notes">¶</a></h2><h2 id="1.-Data-Cleaning-Techniques">1. Data Cleaning Techniques<a class="anchor-link" href="#1.-Data-Cleaning-Techniques">¶</a></h2><p>Data cleaning is the process of preparing raw data by handling errors, missing values, and inconsistencies.</p>
+<h3 id="Common-Techniques">Common Techniques<a class="anchor-link" href="#Common-Techniques">¶</a></h3><ul>
+<li><p><strong>Handling Missing Values</strong></p>
+<ul>
+<li>Remove rows/columns</li>
+<li>Fill with mean/median/mode</li>
+<li>Forward fill / backward fill</li>
+</ul>
+</li>
+<li><p><strong>Removing Duplicates</strong></p>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+</pre></div>
+</li>
+<li><p><strong>Fixing Data Types</strong></p>
+<ul>
+<li>Convert strings to dates</li>
+<li>Convert floats to integers</li>
+</ul>
+</li>
+<li><p><strong>Handling Outliers</strong></p>
+<ul>
+<li>Use IQR (Interquartile Range)</li>
+<li>Use Z-score method</li>
+</ul>
+</li>
+<li><p><strong>Standardizing &amp; Normalizing Data</strong></p>
+<ul>
+<li>Standardization: mean = 0, std = 1</li>
+<li>Normalization: values scaled from 0 to 1</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="2.-Exploratory-Data-Analysis-(EDA)">2. Exploratory Data Analysis (EDA)<a class="anchor-link" href="#2.-Exploratory-Data-Analysis-(EDA)">¶</a></h2><p>EDA helps understand the structure, patterns, and key characteristics of data.</p>
+<h3 id="Steps-in-EDA">Steps in EDA<a class="anchor-link" href="#Steps-in-EDA">¶</a></h3><ul>
+<li>Understand data shape and structure</li>
+<li>Check missing values</li>
+<li>Analyze distributions</li>
+<li>Identify outliers</li>
+<li>Visualize relationships between variables</li>
+</ul>
+<h3 id="Common-Functions">Common Functions<a class="anchor-link" href="#Common-Functions">¶</a></h3><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="3.-Summary-Statistics">3. Summary Statistics<a class="anchor-link" href="#3.-Summary-Statistics">¶</a></h2><p>Summary statistics describe the central tendency and spread of data.</p>
+<h3 id="Key-Metrics">Key Metrics<a class="anchor-link" href="#Key-Metrics">¶</a></h3><ul>
+<li><strong>Mean</strong> – average value</li>
+<li><strong>Median</strong> – middle value</li>
+<li><strong>Mode</strong> – most frequent value</li>
+<li><strong>Variance</strong> – spread of data</li>
+<li><strong>Standard Deviation</strong> – how much values deviate</li>
+<li><strong>Minimum &amp; Maximum</strong> – range</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="4.-Correlation">4. Correlation<a class="anchor-link" href="#4.-Correlation">¶</a></h2><p>Correlation measures how two variables are related.</p>
+<h3 id="Types">Types<a class="anchor-link" href="#Types">¶</a></h3><ul>
+<li><strong>Positive correlation</strong> – one increases, other increases</li>
+<li><strong>Negative correlation</strong> – one increases, other decreases</li>
+<li><strong>Zero correlation</strong> – no relation</li>
+</ul>
+<h3 id="Correlation-Matrix">Correlation Matrix<a class="anchor-link" href="#Correlation-Matrix">¶</a></h3><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="5.-Visualization-Techniques">5. Visualization Techniques<a class="anchor-link" href="#5.-Visualization-Techniques">¶</a></h2><p>Visualization helps interpret complex datasets.</p>
+<h3 id="A.-Histogram">A. Histogram<a class="anchor-link" href="#A.-Histogram">¶</a></h3><p>Used for showing distribution of numerical data.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<h3 id="B.-Scatter-Plot">B. Scatter Plot<a class="anchor-link" href="#B.-Scatter-Plot">¶</a></h3><p>Shows relationship between two variables.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<h3 id="C.-Box-Plot">C. Box Plot<a class="anchor-link" href="#C.-Box-Plot">¶</a></h3><p>Shows spread, median, and outliers.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h1 id="Data-Science-Notes">Data Science Notes<a class="anchor-link" href="#Data-Science-Notes">¶</a></h1><h2 id="1.-Data-Cleaning-Techniques">1. Data Cleaning Techniques<a class="anchor-link" href="#1.-Data-Cleaning-Techniques">¶</a></h2><p>Data cleaning is the process of preparing raw data by handling errors, missing values, and inconsistencies.</p>
+<h3 id="Common-Techniques">Common Techniques<a class="anchor-link" href="#Common-Techniques">¶</a></h3><ul>
+<li><p><strong>Handling Missing Values</strong></p>
+<ul>
+<li>Remove rows/columns</li>
+<li>Fill with mean/median/mode</li>
+<li>Forward fill / backward fill</li>
+</ul>
+</li>
+<li><p><strong>Removing Duplicates</strong></p>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
+</pre></div>
+</li>
+<li><p><strong>Fixing Data Types</strong></p>
+<ul>
+<li>Convert strings to dates</li>
+<li>Convert floats to integers</li>
+</ul>
+</li>
+<li><p><strong>Handling Outliers</strong></p>
+<ul>
+<li>Use IQR (Interquartile Range)</li>
+<li>Use Z-score method</li>
+</ul>
+</li>
+<li><p><strong>Standardizing &amp; Normalizing Data</strong></p>
+<ul>
+<li>Standardization: mean = 0, std = 1</li>
+<li>Normalization: values scaled from 0 to 1</li>
+</ul>
+</li>
+</ul>
+<hr/>
+<h2 id="2.-Exploratory-Data-Analysis-(EDA)">2. Exploratory Data Analysis (EDA)<a class="anchor-link" href="#2.-Exploratory-Data-Analysis-(EDA)">¶</a></h2><p>EDA helps understand the structure, patterns, and key characteristics of data.</p>
+<h3 id="Steps-in-EDA">Steps in EDA<a class="anchor-link" href="#Steps-in-EDA">¶</a></h3><ul>
+<li>Understand data shape and structure</li>
+<li>Check missing values</li>
+<li>Analyze distributions</li>
+<li>Identify outliers</li>
+<li>Visualize relationships between variables</li>
+</ul>
+<h3 id="Common-Functions">Common Functions<a class="anchor-link" href="#Common-Functions">¶</a></h3><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="3.-Summary-Statistics">3. Summary Statistics<a class="anchor-link" href="#3.-Summary-Statistics">¶</a></h2><p>Summary statistics describe the central tendency and spread of data.</p>
+<h3 id="Key-Metrics">Key Metrics<a class="anchor-link" href="#Key-Metrics">¶</a></h3><ul>
+<li><strong>Mean</strong> – average value</li>
+<li><strong>Median</strong> – middle value</li>
+<li><strong>Mode</strong> – most frequent value</li>
+<li><strong>Variance</strong> – spread of data</li>
+<li><strong>Standard Deviation</strong> – how much values deviate</li>
+<li><strong>Minimum &amp; Maximum</strong> – range</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="4.-Correlation">4. Correlation<a class="anchor-link" href="#4.-Correlation">¶</a></h2><p>Correlation measures how two variables are related.</p>
+<h3 id="Types">Types<a class="anchor-link" href="#Types">¶</a></h3><ul>
+<li><strong>Positive correlation</strong> – one increases, other increases</li>
+<li><strong>Negative correlation</strong> – one increases, other decreases</li>
+<li><strong>Zero correlation</strong> – no relation</li>
+</ul>
+<h3 id="Correlation-Matrix">Correlation Matrix<a class="anchor-link" href="#Correlation-Matrix">¶</a></h3><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+</pre></div>
+<hr/>
+<h2 id="5.-Visualization-Techniques">5. Visualization Techniques<a class="anchor-link" href="#5.-Visualization-Techniques">¶</a></h2><p>Visualization helps interpret complex datasets.</p>
+<h3 id="A.-Histogram">A. Histogram<a class="anchor-link" href="#A.-Histogram">¶</a></h3><p>Used for showing distribution of numerical data.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<h3 id="B.-Scatter-Plot">B. Scatter Plot<a class="anchor-link" href="#B.-Scatter-Plot">¶</a></h3><p>Shows relationship between two variables.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<h3 id="C.-Box-Plot">C. Box Plot<a class="anchor-link" href="#C.-Box-Plot">¶</a></h3><p>Shows spread, median, and outliers.</p>
+<div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+<hr/>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=74d1a2c3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="thank-you">thank you<a class="anchor-link" href="#thank-you">¶</a></h1>
 </div>
 </div>
 </div>
